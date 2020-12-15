@@ -1,2 +1,0 @@
-# spookitty-website
-spookitty website

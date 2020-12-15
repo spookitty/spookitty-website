@@ -1,7 +1,6 @@
 @font-face 
 {
 	font-family: 'bandmess';
-	url('bandmess.ttf') format("truetype");
 	src: url('../fonts/bandmess.ttf') format('truetype');
 	font-weight:normal;
 	font-style:normal;
@@ -10,8 +9,8 @@
 body 
 {
     background-color: black;
-    height: 100%;
-
+		height: 100%;
+		text-align: center;
 }
 
 a img:hover
@@ -37,22 +36,7 @@ a, h1, h2, h3, h4, h5
 	letter-spacing: 1px;
 }
 
-#img-container
-{
-	text-align: center;
-}
-
-#link-logo
-{
-	padding: 8px;
-}
-
-#other-links
-{
-	margin: 10px;
-}
-
-#logo img
+#logo
 {
     max-width: 27%;
     top: 0; 
@@ -62,4 +46,19 @@ a, h1, h2, h3, h4, h5
     margin: auto; 
     min-width: 10%;
     min-height: 10%;
+}
+
+#links
+{
+	margin: 10px;
+}
+
+#links a
+{
+	padding: 8px;
+}
+
+#closed
+{
+	display: none;
 }
